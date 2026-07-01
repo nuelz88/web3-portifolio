@@ -57,13 +57,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER W/ CALENDLY */}
+      {/* FOOTER W/ CALENDLY & EMAIL */}
       <footer className="max-w-6xl mx-auto px-6 pt-12 pb-24 border-t border-slate-900 text-center">
         <h3 className="text-xl font-semibold">Let's Build Together</h3>
-        <p className="text-slate-400 text-sm mt-2 max-w-sm mx-auto mb-6">Ready to securely scale your Web3 community operations? Schedule a call directly.</p>
-        <div>
-          <a href="https://calendly.com/0xkhing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium text-sm transition-all shadow-lg shadow-purple-900/20">
+        <p className="text-slate-400 text-sm mt-2 max-w-sm mx-auto mb-8">
+          Ready to securely scale your Web3 community operations? Schedule a call directly.
+        </p>
+        
+        {/* FLEX CONTAINER WITH SPACED BREATHING ROOM */}
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8">
+          <a 
+            href="https://calendly.com/0xkhing" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-medium text-sm transition-all shadow-lg shadow-purple-900/20"
+          >
             Book a Strategy Session <Calendar className="w-4 h-4" />
+          </a>
+          
+          <a 
+            href="mailto:0xkhing@gmail.com" 
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-purple-500/40 hover:bg-slate-800/60 text-slate-300 hover:text-white font-medium text-sm transition-all"
+          >
+            Send a Mail
           </a>
         </div>
       </footer>

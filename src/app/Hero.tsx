@@ -1,9 +1,21 @@
 import React from 'react';
+import Image from 'next/image';
 import { Send, MessageSquare } from 'lucide-react';
 
 export default function Hero() {
   return (
     <header className="max-w-6xl mx-auto px-6 pt-24 pb-16 md:pt-36 md:pb-24 text-center">
+       {/* BRAND PROFILE PICTURE */}
+      <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-6 relative border-2 border-purple-500/40 shadow-xl shadow-purple-950/20 bg-slate-900">
+        <Image 
+          src="/images/my-pfp.png" 
+          alt="KhiNG Profile" 
+          fill 
+          sizes="96px"
+          className="object-cover"
+          priority
+        />
+      </div>
       <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-purple-500/30 bg-purple-950/40 text-purple-300 text-xs font-medium mb-6 animate-pulse">
         <span className="w-2 h-2 rounded-full bg-purple-400" /> Available for Full-Time Roles
       </div>
