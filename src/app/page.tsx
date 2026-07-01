@@ -35,7 +35,7 @@ export default function Home() {
             <Send className="w-4 h-4 text-cyan-400" />
             <span className="text-sm font-medium">t.me/iam0xKhiNG</span>
           </a>
-          <a href="https://discord.com/users/987256961726808134" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all">
+          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all">
             <MessageSquare className="w-4 h-4 text-indigo-400" />
             <span className="text-sm font-medium">Discord Hub</span>
           </a>
@@ -70,28 +70,28 @@ export default function Home() {
             title="Sentries Sol" 
             role="Community Moderator" 
             desc="Managed active chat feeds, maintained community security parameters, and executed robust whitelist distribution funnels for incoming users." 
-            projectLink="https://x.com/Sentries_SOL" 
+            projectLink="https://x.com" 
           />
           <ProjectCard 
             imgSrc="/images/alora-nft-logo.jpg" 
             title="Alora NFT" 
             role="Community Manager" 
             desc="Directed total community alignment, built custom Discord architectures from scratch, and implemented token/whitelist gating to safeguard and organize active spaces." 
-            projectLink="https://x.com/ALORA_nft" 
+            projectLink="https://x.com" 
           />
           <ProjectCard 
             imgSrc="/images/fwd-volya-logo.avif" 
             title="FWD Volya" 
             role="Operations Manager" 
             desc="Oversaw broad daily community infrastructure, synchronized multi-timezone moderator schedules, and ensured smooth operations across shifting meta updates." 
-            projectLink="https://x.com/FWDNFT" 
+            projectLink="https://x.com" 
           />
           <ProjectCard 
             imgSrc="/images/kayac-multimedia-logo.png" 
             title="Kayac Multimedia" 
             role="Community Mod & Social Manager" 
             desc="Engineered external growth loops via targeted social campaigns, scaled impressions across profiles, and converted web attention into active Discord entries." 
-            projectLink="https://x.com/Kayac_io" 
+            projectLink="https://x.com" 
           />
         </div>
       </section>
