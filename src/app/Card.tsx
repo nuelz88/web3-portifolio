@@ -17,7 +17,11 @@ export default function ProjectCard({ imgSrc, title, role, desc, projectLink }: 
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl overflow-hidden bg-slate-800 relative border border-slate-700">
-              <Image src={imgSrc} alt={title} fill className="object-cover" />
+              <Image 
+              src={imgSrc} 
+              alt={title} 
+              fill sizes="48px"
+              className="object-cover" />
             </div>
             <div>
               <h4 className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors">{title}</h4>

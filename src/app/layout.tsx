@@ -23,11 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* FORCE NEXT.JS TO BUST INTERACTION CACHE ON NAVIGATION */}
+        <main key={Math.random()}>{children}</main>
+      </body>
     </html>
   );
 }
