@@ -1,0 +1,212 @@
+export const proofAssets = [
+  {
+    file: "alora-mod-proof.jpg",
+    title: "Alora NFT Moderation",
+    type: "proof",
+    text: "Verified moderation activities and community management."
+  },
+  {
+    file: "alora-nft-logo.jpg",
+    title: "Alora NFT",
+    type: "logo",
+    text: "Project branding and ecosystem."
+  },
+  {
+    file: "announcement.jpg",
+    title: "Community Announcement",
+    type: "host",
+    text: "Official community announcement."
+  },
+  {
+    file: "community-announcement.jpg",
+    title: "Community Announcement",
+    type: "host",
+    text: "Community event announcement."
+  },
+  {
+    file: "community-announcement2.jpg",
+    title: "Community Announcement II",
+    type: "host",
+    text: "Project update and announcement."
+  },
+  {
+    file: "community-announcement3.jpg",
+    title: "Community Announcement III",
+    type: "host",
+    text: "Community notification."
+  },
+  {
+    file: "community-announcement4.jpg",
+    title: "Community Announcement IV",
+    type: "host",
+    text: "Hosted community update."
+  },
+  {
+    file: "community-announcement5.jpg",
+    title: "Community Event",
+    type: "host",
+    text: "Community event hosting."
+  },
+  {
+    file: "community-conversation.jpg",
+    title: "Community Conversation",
+    type: "chat",
+    text: "Daily moderation and community support."
+  },
+  {
+    file: "dungeons-and-degen-mod-proof.jpg",
+    title: "Dungeons & Degens",
+    type: "proof",
+    text: "Moderation proof."
+  },
+  {
+    file: "dungeons-and-degens-logo.gif",
+    title: "Dungeons & Degens",
+    type: "logo",
+    text: "Project branding."
+  },
+  {
+    file: "founder-recognition.jpg",
+    title: "Founder Recognition",
+    type: "praise",
+    text: "Recognition from the project founder."
+  },
+  {
+    file: "fwd-mod-proof.jpg",
+    title: "FWD Volya Moderation",
+    type: "proof",
+    text: "Community moderation evidence."
+  },
+  {
+    file: "fwd-volya-logo.avif",
+    title: "FWD Volya",
+    type: "logo",
+    text: "Project branding."
+  },
+  {
+    file: "game-announce.jpg",
+    title: "Game Announcement",
+    type: "host",
+    text: "Tournament announcement."
+  },
+  {
+    file: "game-announcement.jpg",
+    title: "Gaming Event",
+    type: "host",
+    text: "Hosted gaming event."
+  },
+  {
+    file: "kayac-multimedia-logo.png",
+    title: "Kayac Multimedia",
+    type: "logo",
+    text: "Project branding."
+  },
+  {
+    file: "mod-chat-proof.jpg",
+    title: "Moderator Chat",
+    type: "proof",
+    text: "Internal moderator collaboration."
+  },
+  {
+    file: "mod-ticket-proof.jpg",
+    title: "Support Ticket",
+    type: "proof",
+    text: "Community support ticket resolution."
+  },
+  {
+    file: "my-pfp.png",
+    title: "KhiNG",
+    type: "logo",
+    text: "Personal branding."
+  },
+  {
+    file: "nailong-sol-logo.jpg",
+    title: "Nailong SOL",
+    type: "logo",
+    text: "Project branding."
+  },
+  {
+    file: "payment.jpeg",
+    title: "Payment Proof",
+    type: "proof",
+    text: "Payment received for services."
+  },
+  {
+    file: "praise2-proof.jpeg",
+    title: "Client Feedback",
+    type: "praise",
+    text: "Positive feedback from a client."
+  },
+  {
+    file: "praise-proof.jpeg",
+    title: "Client Testimonial",
+    type: "praise",
+    text: "Recommendation from a client."
+  },
+  {
+    file: "proud-cats-mod-proof.jpg",
+    title: "Proud Cats",
+    type: "proof",
+    text: "Moderation proof."
+  },
+  {
+    file: "Screenshot_20241225_211943.jpg",
+    title: "Organic Community Growth",
+    type: "growth",
+    text: "Organic engagement and growth."
+  },
+  {
+    file: "sentries-sol-logo.jpg",
+    title: "Sentries SOL",
+    type: "logo",
+    text: "Project branding."
+  },
+  {
+    file: "solcrocs-by-argus-logo.jpg",
+    title: "SolCrocs",
+    type: "logo",
+    text: "Project branding."
+  },
+  {
+    file: "solcrocs-mod-proof.jpg",
+    title: "SolCrocs Moderation",
+    type: "proof",
+    text: "Community moderation proof."
+  },
+  {
+    file: "team-appreciation.jpg",
+    title: "Team Appreciation",
+    type: "praise",
+    text: "Recognition from teammates."
+  },
+  {
+    file: "team-appreciation-message.jpg",
+    title: "Community Appreciation",
+    type: "praise",
+    text: "Positive feedback from the team."
+  },
+  {
+    file: "team-membership.jpg",
+    title: "Team Membership",
+    type: "chat",
+    text: "Staff team membership."
+  },
+  {
+    file: "team-recognition.jpeg",
+    title: "Team Recognition",
+    type: "praise",
+    text: "Recognition from project leadership."
+  },
+  {
+    file: "x-growth.jpg",
+    title: "X Analytics",
+    type: "growth",
+    text: "Social media analytics and engagement."
+  },
+  {
+    file: "x-growth (2).jpg",
+    title: "X Growth Metrics",
+    type: "growth",
+    text: "Audience growth and impressions."
+  }
+];
